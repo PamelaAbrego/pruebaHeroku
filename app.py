@@ -8,7 +8,7 @@ app = Flask(__name__)
 cors = CORS(app)
 app.config["CORS_HEADERS"] = "Content-Type"
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/")
 def home():
     celular ="+50379241086"
     mensaje = "prueba"
