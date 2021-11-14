@@ -1,7 +1,3 @@
 Flask
 gunicorn
 flask-cors
-PyMySQL
-requests
-bcrypt
-PyWhatKit
