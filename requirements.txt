@@ -1,4 +1,4 @@
 Flask
 gunicorn
 flask-cors
-pywhatkit==5.1
+PyWhatKit
