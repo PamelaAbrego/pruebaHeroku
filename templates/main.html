@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body background="/static/images/fondo.jpg" style="background-repeat: no-repeat; background-position: center center;">
+    <form action="{{ url_for('home') }}" method="POST">
+        <input type="hidden" name="envio" id="envio" value="todos">
+        <input class="boton" type="submit" name="submit" id="submit" value="Enviar todos los mensajes">
+    </form>
+
+    <style>
+        .imagen {
+            height: 200px;
+            width: 650px;
+            align-content: center;
+        }
+        .pallet {
+            font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+            font-size: 50px;
+            color: rgb(68, 40, 40);
+            font-style: bold;
+        }
+         .boton {
+             font-family: Didot,Didot LT STD,Hoefler Text,Garamond,Times New Roman,serif;
+             text-decoration: none;
+             padding: 10px;
+             font-weight: 100;
+             font-size: 40px;
+             color:   #d28559 ;
+             background-color:    #f3e2cc  ;
+             border-radius: 6px;
+         }
+ 
+         .boton:hover {
+            color:  white;
+            background-color:  #c86450;
+         }
+
+     </style>
+</body>
+</html>
