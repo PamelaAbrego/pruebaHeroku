@@ -1,5 +1,7 @@
 from flask import Flask, render_template
 from flask_cors import CORS, cross_origin
+import requests
+import pywhatkit
 
 
 app = Flask(__name__)
@@ -14,7 +16,7 @@ def home():
     else request.method == "POST":
         celular ="+50379241086"
         mensaje = "prueba"
-        pywhatkit.sendwhatmsg_instantly(celular, mensaje,10,True,10)
+        # pywhatkit.sendwhatmsg_instantly(celular, mensaje,10,True,10)
         return render_template("main.html")
 
         
