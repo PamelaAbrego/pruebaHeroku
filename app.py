@@ -7,7 +7,8 @@ app.config["CORS_HEADERS"] = "Content-Type"
 
 @app.route("/")
 def home():
-    # mensaje = ""
+    mensaje = "Hola"
+    celular = "+50379241086"
     return render_template("main.html")
         
 
