@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 from flask_cors import CORS, cross_origin
-#import pywhatkit
+import pywhatkit
 
 app = Flask(__name__)
 cors = CORS(app)
